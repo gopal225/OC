@@ -1,0 +1,29 @@
+OpenShift Overview
+  What is Openshift ?
+     Enterprise  Kubernetes + Docker
+     Source code management
+     Image management and promotion
+     Application management at  scale
+     Team and user tracking
+     Cluster networking interface
+     REST APIs
+     Controllers
+  OpenShift features
+      Self-service platforms
+      Polygot, multi lingual support
+      Automation
+      User Interface
+      Scalability
+      Container portability
+      Choice of platforms
+      Open source
+  OpenShift Core Concepts
+      Containers  and images
+      Pods and services
+      Projects and users
+      Builds and image streams
+      Deplyments
+      Routes
+      Templates
+
+          

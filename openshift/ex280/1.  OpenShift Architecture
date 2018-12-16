@@ -1,0 +1,34 @@
+
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+OpenSHift Components
+
+  RedHat Enterprise Linux       : Container Optimized  OS
+  Docker                        : Container API & Packaging format
+  Kubernetes                    : Container orchestration & Management
+  Etcd                          : Cluster state and configuration
+  OCP-Kubernetes extensions
+  Containerzied services Extensions     [Auth, Networking, Image Registry]
+  Runtimes & XPaas                      [Java , Ruby , Node.js ....]
+  Developer tools and user Experiences  [WebConsole , CLI, Rest API, SCM Integration]
+  
+// Reference : 1.OpenClusterArchitecture.png
+***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
+
+High Availability
+  OCP Master [ One/More master nodes ]
+    API Server                  : Validates data for podes, nodes and replication controllers
+                                : Assignes podes to nodes
+                                : Synchronises  pod information with  the service information
+    etcd                        : Stores persistance master state
+                                : Other Components watch etcd for changes to bring themselves to desered state
+    Controller Manager server   : Moniters etcd for changes and bringes "API Server" update to the state
+    HAProxy                     : High Availability Masters
+
+  Nodes [One/More nodes]        : Nodes are created from Physical or virtual
+                                : Master validates information from Nodes to validate health checks
+    Runtime environments        : for the nodes
+    Docker Services             : Docker
+    Kubelet                     : YAML file
+    Service Proxy               : TCP/UDP
+// Reference : 2.OpenClusterArchitecture.png
