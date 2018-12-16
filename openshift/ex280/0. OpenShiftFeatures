@@ -1,0 +1,20 @@
+1.Getting Started with Openshift for developers
+  - Containers : images , docker format
+  - Orchestration : Kubernetes (Objects : routes and deployment configs )
+  - Communication Methods
+  -- Command Line interface : oc tool
+     oc login
+     oc whoami
+  -- Web COnsole
+  -- REST API
+  	https://docs.openshift.org/latest/rest_api/index.html
+  	https://tools.jboss.org/features/openshift.html
+  - Environment : OpenShift Origin
+
+2.Logging into an Openshift Cluster
+3.Deploying Applications From Images
+4.Deploying Applications from Source
+5.Using the CLI to Manage Resource Objects
+6.Connecting to a Database Using Port Forwarding
+7.Transferring Files in and Out of Containers
+8.Exploring and using metrics and HPAs

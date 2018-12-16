@@ -1,11 +1,8 @@
- https://archive.org/details/rhel-server-7.2-x86_64-dvd
-https://archive.org/details/rhel-server-7.5-x86_64-dvd
-
-Red Hat Enterprise Linux 7.4 KVM Guest Image
-https://access.redhat.com/downloads/content/69/ver=/rhel---7/7.4/x86_64/product-software
-
-Good to have
-rhel-server-7.4-x86_64-kvm.qcow2
-
-VirtualBox
-https://www.youtube.com/watch?v=EdX-2ci1XtQ
+Tools :
+  1: Virtual Box
+     https://www.youtube.com/watch?v=EdX-2ci1XtQ
+Images
+  https://archive.org/details/rhel-server-7.2-x86_64-dvd
+  https://archive.org/details/rhel-server-7.5-x86_64-dvd
+  Red Hat Enterprise Linux 7.4 KVM Guest Image
+  https://access.redhat.com/downloads/content/69/ver=/rhel---7/7.4/x86_64/product-software
